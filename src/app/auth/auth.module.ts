@@ -16,6 +16,11 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
   imports: [
     CommonModule,
     AuthRoutingModule
+  ],
+  exports: [
+    LoginComponent,
+    RegisterComponent,
+    ForgotPasswordComponent
   ]
 })
 export class AuthModule { }
