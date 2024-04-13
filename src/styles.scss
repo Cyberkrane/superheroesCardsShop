@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'logoHero';
+    src: url('../src/assets/fonts/hallheroes.ttf') format('truetype');
+    font-family: 'superFont';
+    src: url('../src/assets/fonts/Heroes\ Legend.ttf') format('truetype');
+  }
+
+.daltonicos{
+    color: #ce1bf5;
+    color: #180bd4;
+    color: #153ceb;
+    color: #5196d6;
+    color: #0df3fa;
+}
+:root{
+    --dark1:#250101;
+    --dark2:#411922;
+    --dark3:#40495a;
+
+    --brown1:#590817;
+    --brown2:#733425;
+    --brown3:#8c374e;
+    --green:#82a64c;
+
+    --red1:#bf0a19;
+    --red2:#d92838;
+    --red3:#f10505;
+
+    --blue:#10528c;
+    --orange:#f29c6b;
+    --ligthBlue:#0ddbf2;
+
+    --light:#f2f2f2;
+}
+
+// Importa la fuente
+
+  
+  // logos de superheroes
+  $logo-hero: 'logoHero', sans-serif;
+  $hero-font:'superFont', sans-serif;
+
+
