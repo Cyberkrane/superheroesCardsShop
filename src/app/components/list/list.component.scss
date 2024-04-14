@@ -1,0 +1,31 @@
+table{
+    width: 60%;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(15px);
+     border: solid 2px rgba(240, 143, 17, 0.767); 
+    color: orange;
+    box-shadow: 5px 5px 5px rgba(240, 143, 17, 0.418);
+
+}
+th,td{
+    border: solid 1px rgba(240, 143, 17, 0.767);
+    padding: 10px;
+}
+th{
+    color: rgb(255, 188, 64);
+    text-shadow: 2px 2px 2px black;
+}
+td{
+    color: rgb(245, 217, 158);
+    text-shadow: 3px 3px 3px black;
+}
+
+img{
+    width: 100%;
+}
+@media  (max-width:780px) {
+   table{
+    width: 360px;
+   } 
+}
