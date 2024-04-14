@@ -1,1 +1,46 @@
-<p>card works!</p>
+<div class="hero_card">
+    
+<div class="logo">
+     <span>a</span>
+    <h2>{{ hero.nombre }}</h2>
+</div>
+ 
+    
+    <img  src="{{ hero.img }}"
+        alt="imagen de {{ hero.nombre }}"
+        title="{{ hero.nombre }}"
+    />
+
+    <div class="hero_description">
+
+        <div class="hero_description_item">
+             <p>Nombre real: </p>
+            <h3> {{ hero.alter_ego }}</h3>
+        </div>
+
+        <div class="hero_description_item">
+            <p>Edad: </p>
+            <h3>{{ hero.edad }}</h3>
+        </div>
+
+        <div class="hero_description_item">
+            <p>Origen: </p>
+            <h3>{{ hero.origen }}</h3>
+        </div>
+    </div>
+
+    <div class="hero_description_power">
+            <p>Poder principal: </p>
+            <h3>{{ hero.poder_principal }}</h3>
+    </div>
+   
+    <div class="hero_description_sale">
+        <p>Precio: </p>
+        <h3>{{ hero.price}}</h3>
+        <p>In stock: </p>
+        <h3>{{ hero.amount }}</h3>
+        <button class="btn_comprar" (click)="comprar()">Comprar</button>
+    </div>
+
+
+</div>
