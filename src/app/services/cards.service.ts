@@ -13,7 +13,10 @@ export class CardsService {
       "alter_ego": "Tony Stark",
       "poder_principal": "Tecnología avanzada y armadura Iron Man",
       "edad": 50,
-      "origen": "Estados Unidos"
+      "origen": "Estados Unidos",
+      "price": 14.99,
+      "inStock":false,
+      "amount":10,
     },
     {
       "nombre": "Captain America",
@@ -21,7 +24,10 @@ export class CardsService {
       "alter_ego": "Steve Rogers",
       "poder_principal": "Super fuerza, agilidad y resistencia",
       "edad": 100,
-      "origen": "Estados Unidos"
+      "origen": "Estados Unidos",
+      "price": 11.99,
+      "inStock":false,
+      "amount":20,
     },
     {
       "nombre": "Thor",
@@ -29,7 +35,10 @@ export class CardsService {
       "alter_ego": "Thor Odinson",
       "poder_principal": "Control sobre el rayo y fuerza sobrehumana",
       "edad": 1500,
-      "origen": "Asgard"
+      "origen": "Asgard",
+      "price": 12.99,
+      "inStock":false,
+      "amount":20,
     },
     {
       "nombre": "Hulk",
@@ -37,7 +46,10 @@ export class CardsService {
       "alter_ego": "Bruce Banner",
       "poder_principal": "Fuerza sobrehumana y resistencia regenerativa",
       "edad": 40,
-      "origen": "Estados Unidos"
+      "origen": "Estados Unidos",
+      "price": 9.99,
+      "inStock":false,
+      "amount":20,
     },
     {
       "nombre": "Black Widow",
@@ -45,7 +57,10 @@ export class CardsService {
       "alter_ego": "Natasha Romanoff",
       "poder_principal": "Maestría en combate cuerpo a cuerpo y habilidades de espionaje",
       "edad": 35,
-      "origen": "Rusia"
+      "origen": "Rusia",
+      "price": 14.99,
+      "inStock":false,
+      "amount":20,
     },
     {
       "nombre": "Hawkeye",
@@ -53,7 +68,10 @@ export class CardsService {
       "alter_ego": "Clint Barton",
       "poder_principal": "Experto arquero y habilidades de combate",
       "edad": 45,
-      "origen": "Estados Unidos"
+      "origen": "Estados Unidos",
+      "price": 10.99,
+      "inStock":false,
+      "amount":20,
     }
   ]
 

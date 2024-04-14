@@ -5,11 +5,22 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: 'logoHero';
-    src: url('../src/assets/fonts/hallheroes.ttf') format('truetype');
     font-family: 'superFont';
     src: url('../src/assets/fonts/Heroes\ Legend.ttf') format('truetype');
   }
+
+@font-face {
+    font-family: 'nombre';
+    src: url('../src/assets/fonts/heroesassemble3d.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'logoHero';
+    src: url('../src/assets/fonts/hallheroes.ttf') format('truetype');
+}
+::-webkit-scrollbar{
+    display: none;
+}
 
 .daltonicos{
     color: #ce1bf5;
