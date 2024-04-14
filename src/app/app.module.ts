@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ListComponent } from './components/list/list.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { CardComponent } from './components/card/card.component';
 import { BtnBackComponent } from './components/btn-back/btn-back.component';
@@ -14,7 +13,6 @@ import { FooterComponent } from './shared/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent,
     GalleryComponent,
     CardComponent,
     BtnBackComponent,
